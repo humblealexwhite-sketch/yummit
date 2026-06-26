@@ -54,11 +54,12 @@
 
   @media (min-width: 900px){
     .hero{
-      min-height: 72vh;
+      min-height: calc(100vh - 72px);
       display:flex;
       flex-direction:column;
       justify-content:center;
       padding: 40px 0;
+      box-sizing: border-box;
     }
   }
   .mega{ margin:0; }
